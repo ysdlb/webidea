@@ -1,5 +1,7 @@
 HELP.md
 /target/
+/.mvn/
+mvn*
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -28,13 +30,14 @@ HELP.md
 ### VS Code ###
 .vscode/
 
-
-##### add by ysdlb
-# Compiled source #
-###################
-*.com
+# coped by ysdlb
+### Java template
 *.class
-*.dll
-*.exe
-*.o
-*.so
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
